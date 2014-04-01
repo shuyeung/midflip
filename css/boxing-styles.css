@@ -1,0 +1,19 @@
+#BACKGROUND-BLACK,.background-black{
+	background-color:black;
+}
+
+#BACKGROUND-GREY, .background-grey{
+	background-color:gray;
+}
+
+#BOX-HEIGHT-755PX,.header,.box-height-755px{
+	height:756px;
+}
+
+#BOX-HEIGHT-540PX,.content,.box-height-540px{
+	height:490px;
+}
+
+#BOX-HEIGHT-315X,.footer,.box-height-315px{
+	height:315px;
+}
