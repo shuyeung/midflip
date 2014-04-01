@@ -1,0 +1,91 @@
+body{
+  background-color:black;
+}
+
+input{
+  display:none;
+}
+
+.logo{
+  position:absolute;
+  background-color:red;
+  color:white;
+  font-family:Helvetica;
+  font-weight:bold;
+  padding:3px 3px 0;
+  margin-left:23%;
+  z-index:100;
+}
+
+.slides {
+  width:100%;
+  height:490px;
+  position:absolute;
+  display:none;
+}
+
+.slide{
+  position:relative;
+  list-style:none;
+  width:60%;
+  margin:0 20%;
+  background-color:#0E0E0E;
+}
+
+.caption{
+  visibility:hidden;
+  background-color:#E1E1E1;
+  padding:.2em 23% 0.2em 23%;
+}
+
+.photo { 
+  width:100%;
+  opacity:0;
+}
+
+.photo img{
+  width:100%;
+  height:auto;
+  display:block;
+  margin:0 auto;
+}
+
+.nav label{
+  position:absolute;
+  display:none;
+  cursor:pointer;
+  top:0;
+  background-color:white;
+  height:100%;
+  opacity:0;
+  line-height:25em;
+}
+
+.nav .next{
+  right:0;
+}
+
+.photo:hover + .nav label {
+  opacity:0.2;
+  transition:opacity 0.5s;
+}
+
+.nav label:hover{
+  opacity:0.5;
+}
+
+input:checked + .slides{
+  display:block;
+}
+
+input:checked + .slides .slide .nav label {
+  display:block;
+}
+
+input:checked + .slides .slide .photo {
+  opacity:1;
+}
+
+input:checked + .slides .caption {
+  visibility:visible;
+}
