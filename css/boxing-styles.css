@@ -6,8 +6,16 @@
 	background-color:gray;
 }
 
+#BACKGROUND-WHITE, .background-white{
+	background-color:white;
+}
+
+#OPACITY-50, .opacity-50{
+	opacity: 0.5;
+}
+
 #BOX-HEIGHT-755PX,.header,.box-height-755px{
-	height:756px;
+	height:755px;
 }
 
 #BOX-HEIGHT-540PX,.content,.box-height-540px{
@@ -16,4 +24,8 @@
 
 #BOX-HEIGHT-315X,.footer,.box-height-315px{
 	height:315px;
+}
+
+#MARGIN-0-AUTO, .margin-0-auto{
+  margin:0 auto;
 }
