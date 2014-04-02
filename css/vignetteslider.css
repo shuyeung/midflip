@@ -59,7 +59,13 @@ input{
   background-color:white;
   height:100%;
   opacity:0;
-  line-height:25em;
+}
+
+.nav label:before{
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
 }
 
 .nav .next{

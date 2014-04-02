@@ -30,6 +30,11 @@
   margin:0 auto;
 }
 
+#MARGIN-LEFT-15PX, .nav .prev, .margin-left-15px{
+	margin-left: 15px;
+}
+
+
 #PADDING-2EM-0, .caption, .padding-2em-0{
 	padding:.2em 0;
 }
@@ -38,12 +43,20 @@
 	padding:0;
 }
 
+#PADDING-LEFT-15PX, .slide , .padding-left-15px{
+	padding-left:15px;
+}
+
 #POSITION-ABSOLUTE, .vignette, .nav label, .position-absolute{
 	position:absolute;
 }
 
 #RIGHT-0, .nav .next, .right-0{
 	right: 0;
+}
+
+#LEFT-0, .nav .prev, .left-0{
+	left: 0;
 }
 
 #OPACITY-0, .photo, .nav label, .opacity-0{
@@ -86,13 +99,19 @@
 	display: block;
 }
 
+#VERTICAL-ALIGN, .nav label:before, .vertical-align{
+	content: '';
+	display: inline-block;
+	height: 100%; 
+	vertical-align: middle;
+}
+
 .photo{
-	transition: opacity 0.3s;
+	transition: opacity 0.7s;
 }
 
 .nav label {
 	cursor: pointer;
-	line-height: 25em;
 }
 
 .photo:hover + .nav label {
