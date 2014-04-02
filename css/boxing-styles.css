@@ -34,6 +34,19 @@
 	padding:.2em 0;
 }
 
-#POSITION-ABSOLUTE, .position-absolute{
+#PADDING-0, .vignette, .slide, .padding-0{
+	padding:0;
+}
+
+#POSITION-ABSOLUTE, .vignette, .position-absolute{
 	position:absolute;
+}
+
+
+#TOP-0, .vignette,.top-0{
+	top:0;
+}
+
+#WIDTH-100, .width-100{
+	width: 100%;
 }
