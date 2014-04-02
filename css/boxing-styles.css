@@ -2,7 +2,7 @@
 	background-color:black;
 }
 
-#BACKGROUND-GREY, .background-grey{
+#BACKGROUND-GREY, .caption, .background-grey{
 	background-color:gray;
 }
 
@@ -28,4 +28,12 @@
 
 #MARGIN-0-AUTO, .margin-0-auto{
   margin:0 auto;
+}
+
+#PADDING-2EM-0, .caption, .padding-2em-0{
+	padding:.2em 0;
+}
+
+#POSITION-ABSOLUTE, .position-absolute{
+	position:absolute;
 }
