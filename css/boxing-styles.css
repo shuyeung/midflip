@@ -10,6 +10,14 @@
 	background-color:white;
 }
 
+#BACKGROUND-RED, .logo span, .background-red{
+	background-color:red;
+}
+
+#COLOR-WHITE, .logo span, .color-white{
+	color: white;
+}
+
 #BOX-HEIGHT-100, .nav label, .box-height-100{
 	height: 100%;
 }
@@ -34,6 +42,13 @@
 	margin-left: 15px;
 }
 
+#MARGIN-LEFT-1EM, .logo span, .margin-left-1em{
+	margin-left: 1em;
+}
+
+#MARGIN-1EM, .caption-text span, .margin-1em{
+	margin: 0 1em;
+}
 
 #PADDING-2EM-0, .caption, .padding-2em-0{
 	padding:.2em 0;
@@ -43,15 +58,15 @@
 	padding:0;
 }
 
-#PADDING-0-1EM, .caption-text span, .paddinng-0-1em{
-	padding:0 1em;
+#PADDING-3PX, .logo span, .paddinng-3px{
+	padding:3px;
 }
 
 #PADDING-LEFT-15PX, .slide , .padding-left-15px{
 	padding-left:15px;
 }
 
-#POSITION-ABSOLUTE, .vignette, .nav label, .position-absolute{
+#POSITION-ABSOLUTE, .logo, .vignette, .nav label, .position-absolute{
 	position:absolute;
 }
 
@@ -110,6 +125,14 @@
 	vertical-align: middle;
 }
 
+#Z-INDEX-100, .logo, .z-index-100{
+	z-index: 100;
+}
+
+.logo span{
+	font-size:1.2em;
+}
+
 .photo{
 	transition: opacity 0.7s;
 }
@@ -123,5 +146,5 @@
 }
 
 input:checked + .vignette .slide .photo{
-  transition: opacity 0.6s;
+  	transition: opacity 0.6s;
 }
