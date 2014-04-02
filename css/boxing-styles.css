@@ -62,11 +62,11 @@
 	opacity: 1;
 }
 
-#VISIBILITY-HIDDEN, .caption, .visibility-hidden{
+#VISIBILITY-HIDDEN, .vignette, .caption, .visibility-hidden{
 	visibility: hidden;
 }
 
-#VISIBILITY-VISIBLE, input:checked + .vignette .caption, .visibility-visible{
+#VISIBILITY-VISIBLE, input:checked + .vignette, input:checked + .vignette .caption, .visibility-visible{
 	visibility: visible;
 }
 
@@ -78,12 +78,16 @@
 	width: 100%;
 }
 
-#DISPLAY-NONE, input, .vignette, .nav label, .display-none{
+#DISPLAY-NONE, input, .nav label, .display-none{
 	display: none;
 }
 
-#DISPLAY-BLOCK, input:checked + .vignette, input:checked + .vignette .slide .nav label, .display-block{
+#DISPLAY-BLOCK, input:checked + .vignette .slide .nav label, .display-block{
 	display: block;
+}
+
+.photo{
+	transition: opacity 0.3s;
 }
 
 .nav label {
@@ -92,5 +96,9 @@
 }
 
 .photo:hover + .nav label {
-  transition:opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+input:checked + .vignette .slide .photo{
+  transition: opacity 0.6s;
 }
