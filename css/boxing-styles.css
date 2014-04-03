@@ -3,7 +3,7 @@
 }
 
 #BACKGROUND-GREY, .caption, .background-grey{
-	background-color:gray;
+	background-color:#E1E1E1;
 }
 
 #BACKGROUND-WHITE, .nav label, .background-white{
@@ -34,11 +34,15 @@
 	height:315px;
 }
 
+#MARGIN-0, .vignette-container, .margin-0{
+	margin: 0;
+}
+
 #MARGIN-0-AUTO, .margin-0-auto{
   margin:0 auto;
 }
 
-#MARGIN-LEFT-15PX, .nav .prev, .margin-left-15px{
+#MARGIN-LEFT-15PX, .margin-left-15px{
 	margin-left: 15px;
 }
 
@@ -46,8 +50,8 @@
 	margin-left: 1em;
 }
 
-#MARGIN-1EM, .caption-text span, .margin-1em{
-	margin: 0 1em;
+#MARGIN-1-1EM, .caption-text span, .margin-1-1em{
+	margin: 0 1.1em;
 }
 
 #PADDING-2EM-0, .caption, .padding-2em-0{
@@ -62,7 +66,7 @@
 	padding:3px;
 }
 
-#PADDING-LEFT-15PX, .slide , .padding-left-15px{
+#PADDING-LEFT-15PX, .padding-left-15px{
 	padding-left:15px;
 }
 
