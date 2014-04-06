@@ -18,10 +18,7 @@
 	color: white;
 }
 
-#BOX-HEIGHT-100, .nav label, .box-height-100{
-	height: 100%;
-}
-
+/*
 #BOX-HEIGHT-755PX,.header,.box-height-755px{
 	height:755px;
 }
@@ -33,6 +30,7 @@
 #BOX-HEIGHT-315X,.footer,.box-height-315px{
 	height:315px;
 }
+*/
 
 #MARGIN-0, .vignette-container, .margin-0{
 	margin: 0;
@@ -72,6 +70,10 @@
 
 #POSITION-ABSOLUTE, .logo, .vignette, .nav label, .position-absolute{
 	position:absolute;
+}
+
+#POSITION-RELATIVE, input:checked + .vignette, .position-relative{
+	position:relative;
 }
 
 #RIGHT-0, .nav .next, .right-0{
@@ -114,6 +116,14 @@
 	width: 100%;
 }
 
+#HEIGHT-100, .nav label, .height-100{
+	height: 100%;
+}
+
+#HEIGHT-30, .height-30{
+	height:30%;
+}
+
 #DISPLAY-NONE, input, .nav label, .display-none{
 	display: none;
 }
@@ -131,6 +141,10 @@
 
 #Z-INDEX-100, .logo, .z-index-100{
 	z-index: 100;
+}
+
+#FONT-6EM, .inframe-h1, .font-6em{
+	font-size: 6em;
 }
 
 .logo span{
