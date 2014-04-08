@@ -2,7 +2,7 @@
 	background-color:black;
 }
 
-#BACKGROUND-GREY, .caption, .background-grey{
+#BACKGROUND-GREY, .caption, .footer, .background-grey{
 	background-color:#E1E1E1;
 }
 
@@ -17,20 +17,6 @@
 #COLOR-WHITE, .nav label, .logo span, .color-white{
 	color: white;
 }
-
-/*
-#BOX-HEIGHT-755PX,.header,.box-height-755px{
-	height:755px;
-}
-
-#BOX-HEIGHT-540PX,.content,.box-height-540px{
-	height:490px;
-}
-
-#BOX-HEIGHT-315X,.footer,.box-height-315px{
-	height:315px;
-}
-*/
 
 #MARGIN-0, .vignette-container, .margin-0{
 	margin: 0;
@@ -52,9 +38,15 @@
 	margin: 0 1.1em;
 }
 
-#PADDING-2EM-0, .caption, .padding-2em-0{
+#PADDING-02EM-0, .caption, .padding-02em-0{
 	padding:.2em 0;
 }
+
+#PADDING-30EM-0, .dropdown li, .padding-03em-0{
+	padding:.3em 0;
+}
+
+#PADDING-0-05EM
 
 #PADDING-0, .vignette, .slide, .padding-0{
 	padding:0;
@@ -100,11 +92,11 @@
 	opacity: 1;
 }
 
-#VISIBILITY-HIDDEN, .vignette, .caption, .visibility-hidden{
+#VISIBILITY-HIDDEN, .vignette, .caption, .content .dropdown,.visibility-hidden{
 	visibility: hidden;
 }
 
-#VISIBILITY-VISIBLE, input:checked + .vignette, input:checked + .vignette .caption, .visibility-visible{
+#VISIBILITY-VISIBLE, input:checked + .vignette, input:checked + .content .dropdown, input:checked + .vignette .caption, .visibility-visible{
 	visibility: visible;
 }
 
@@ -124,17 +116,28 @@
 	height:30%;
 }
 
+#HEIGHT-300PX, .footer, .height-300px{
+	height:300px;
+}
+
 #DISPLAY-NONE, input, .nav label, .display-none{
 	display: none;
 }
 
-#DISPLAY-BLOCK, input:checked + .vignette .slide .nav label, .display-block{
+#DISPLAY-BLOCK, input:checked + .vignette .slide .nav label, ul.dropdown, .display-block{
 	display: block;
+}
+
+#DISPLAY-INLINEBLOCK, .nav label:before, .buttonbar .content, .display-inlineblock{
+	display: inline-block;
+}
+
+#LIST-STYLE-NONE, ul.dropdown, .buttonbar .content, .list-sytle-none{
+	list-style: none;
 }
 
 #VERTICAL-ALIGN, .nav label:before, .vertical-align{
 	content: '';
-	display: inline-block;
 	height: 100%; 
 	vertical-align: middle;
 }
@@ -157,6 +160,17 @@
 
 .nav label {
 	cursor: pointer;
+}
+
+.buttonbar .content{
+	z-index: 1000;
+	float: left;
+}
+
+ul.dropdown {
+  text-align:right;
+  margin-right:0.3em;
+  margin-top:0.3em;
 }
 
 .photo:hover + .nav label {
