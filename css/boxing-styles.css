@@ -188,7 +188,7 @@ body{
 	font-weight: bold;
 }
 
-#TEXTDECORATION-NONE, a.navbtn-link, .textdecoration-none{
+#TEXTDECORATION-NONE, a.navbtn-link, a.intext-link, .textdecoration-none{
 	text-decoration: none;
 }
 
@@ -200,8 +200,17 @@ body{
 	color:#666666;
 }
 
+#COLOR-RED, a.intext-link:hover, .color-red{
+	color:red;
+}
+
 #CURSOR-POINTER, .nav label, a.navbtn-link:hover, .cursor-pointer {
 	cursor: pointer;
+}
+
+
+a.intext-link{
+	color:inherit;
 }
 
 .logo span{
