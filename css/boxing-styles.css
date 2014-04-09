@@ -34,7 +34,7 @@
   margin:0 auto;
 }
 
-#MARGIN-LEFT-15PX, .margin-left-15px{
+#MARGIN-LEFT-15PX, .inframe-h1, .navbtn-content:nth-child(2), .margin-left-15px{
 	margin-left: 15px;
 }
 
@@ -42,8 +42,12 @@
 	margin-left: 1em;
 }
 
-#MARGIN-1-1EM, .caption-text span, .margin-1-1em{
-	margin: 0 1.1em;
+#MARGIN-RIGHT-NEG15PX, .navbtn-content:nth-child(2), .margin-right-neg15px{
+	margin-right: -15px;
+}
+
+#MARGIN-0-5px, .caption-text span, .margin-0-5px{
+	margin: 0 5px;
 }
 
 #PADDING-02EM-0, .caption, .padding-02em-0{
