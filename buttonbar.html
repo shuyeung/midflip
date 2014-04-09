@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
 	<head>
-		<title>buttonbar</title>
+		<title>navbtn-linkbar</title>
 		<meta charset="UTF-8">
 		<meta name=description content="">
 		<meta name=viewport content="width=device-width, initial-scale=1">
@@ -11,40 +11,48 @@
 		<link href="css/boxing-styles.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
-		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-			<input id="inframe" type="radio" name="nav" checked/>
-			<div class="content">
-				<label id="test" for="inframe" class="paddingLR05em"><a class="button current"><strong>in frame</strong></a></label>
+		<div class="navbtn col-xs-12 col-sm-12 col-md-1 col-lg-1">
+			<input id="inframe-btn" type="radio" name="nav" checked/>
+			<div class="navbtn-content">
+				<label for="inframe-btn" class="padding-0-05em">
+					<a class="navbtn-link current"><strong>in frame</strong></a>
+				</label>
 		    </div>
 		</div>
 
-		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-			<input id="commercial" type="radio" name="nav" />
-		    <div class="content">
-		      <label for="commercial" class="border-left paddingLR05em"><a class="button"><strong>commercial</strong></a></label>
+		<div class="navbtn col-xs-12 col-sm-12 col-md-1 col-lg-1">
+			<input id="commercial-btn" type="radio" name="nav" />
+		    <div class="navbtn-content">
+		      <label for="commercial-btn" class="padding-0-05em">
+		      	<a class="navbtn-link"><strong>commercial</strong></a>
+		      </label>
 		      <ul class="dropdown">
-		        <li><a class="button">events</a></li>
-		        <li><a class="button">headshots &#38; portraits</a></li>
+		        <li><a class="navbtn-link">events</a></li>
+		        <li><a class="navbtn-link">headshots &#38; portraits</a></li>
 		      </ul>
 		    </div>			
 		</div>
 
-		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-			<input id="personal" type="radio" name="nav" />
-		    <div class="content">
-		      <label for="personal" class="border-left paddingLR05em"><a class="button"><strong>personal</strong></a></label>
+		<div class="navbtn col-xs-12 col-sm-12 col-md-1 col-lg-1">
+			<input id="personal-btn" type="radio" name="nav" />
+		    <div class="navbtn-content">
+		      <label for="personal-btn" class="padding-0-05em">
+		      	<a class="navbtn-link"><strong>personal</strong></a>
+		      </label>
 		      <ul class="dropdown">
-		        <li><a class="button">sydney uni gymnastics</a></li>
-		        <li><a class="button">papua new guinea</a></li>
-		        <li><a class="button current">underwater rugby</a></li>
+		        <li><a class="navbtn-link">sydney uni gymnastics</a></li>
+		        <li><a class="navbtn-link">papua new guinea</a></li>
+		        <li><a class="navbtn-link current">underwater rugby</a></li>
 		      </ul>
 		    </div>			
 		</div>
 
-		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+		<div class="navbtn col-xs-12 col-sm-12 col-md-1 col-lg-1">
 			<input id="about" type="radio" name="nav"/>
-		    <div class="content">
-		      <label for="about" class="border-left paddingLR05em"><a class="button"><strong>about</strong></a></label>
+		    <div class="navbtn-content">
+		      <label for="about" class="padding-0-05em">
+		      	<a class="navbtn-link"><strong>about</strong></a>
+		      </label>
 		    </div>			
 		</div>
 
@@ -52,8 +60,8 @@
 		
 
 		<!-- jQuery -->
-		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<!-- Bootstrap JavaScript -->
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
