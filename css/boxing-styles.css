@@ -70,8 +70,8 @@
 	padding-left: 0;
 }
 
-#PADDING-LEFT-20PX, .padding-left-20px{
-	padding-left:20px;
+#PADDING-LEFT-5PX, .padding-left-5px{
+	padding-left:5px;
 }
 
 #POSITION-ABSOLUTE, .logo, .vignette, .nav label, .position-absolute{
@@ -164,6 +164,10 @@
 	font-size: 0.9em;
 }
 
+#FONT-1-5EM, label .navbtn-link, .font-1-5EM{
+	font-size: 1.2em;
+}
+
 #FONT-6EM, .inframe-h1, .font-6em{
 	font-size: 6em;
 }
@@ -181,7 +185,7 @@
 }
 
 #COLOR-GRAY, .navbtn-link, .color-gray{
-	color:gray;
+	color:#666666;
 }
 
 #CURSOR-POINTER, .nav label, a.navbtn-link:hover, .cursor-pointer {
