@@ -70,8 +70,8 @@
 	padding-left: 0;
 }
 
-#PADDING-LEFT-15PX, .padding-left-15px{
-	padding-left:15px;
+#PADDING-LEFT-20PX, .padding-left-20px{
+	padding-left:20px;
 }
 
 #POSITION-ABSOLUTE, .logo, .vignette, .nav label, .position-absolute{
@@ -106,11 +106,11 @@
 	opacity: 1;
 }
 
-#VISIBILITY-HIDDEN, .vignette, .caption, ul.dropdown,.visibility-hidden{
+#VISIBILITY-HIDDEN, .vignette, .caption, .visibility-hidden{
 	visibility: hidden;
 }
 
-#VISIBILITY-VISIBLE, input:checked + .vignette, input:checked + .navbtn-content .dropdown, input:checked + .vignette .caption, .visibility-visible{
+#VISIBILITY-VISIBLE, input:checked + .vignette, input:checked + .vignette .caption, .visibility-visible{
 	visibility: visible;
 }
 
@@ -134,11 +134,11 @@
 	height:300px;
 }
 
-#DISPLAY-NONE, input, .nav label, .display-none{
+#DISPLAY-NONE, input, .nav label, .navbtn-content .dropdown, .display-none{
 	display: none;
 }
 
-#DISPLAY-BLOCK, input:checked + .vignette .slide .nav label, .display-block{
+#DISPLAY-BLOCK, input:checked + .vignette .slide .nav label, input:checked + .navbtn-content .dropdown, .display-block{
 	display: block;
 }
 
@@ -158,6 +158,10 @@
 
 #Z-INDEX-100, .logo, .z-index-100{
 	z-index: 100;
+}
+
+#FONT-09EM, .navbtn-content .dropdown, .font-09em{
+	font-size: 0.9em;
 }
 
 #FONT-6EM, .inframe-h1, .font-6em{
@@ -199,8 +203,7 @@
 
 ul.dropdown {
   text-align:left;
-  margin-left:0.5em;
-  margin-top:1em;
+  margin-left:0.6em;
 }
 
 .photo:hover + .nav label {
