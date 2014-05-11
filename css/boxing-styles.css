@@ -150,7 +150,7 @@ body{
 	display: none;
 }
 
-#DISPLAY-BLOCK, input:checked + .vignette .slide .nav label, input:checked + .navbtn-content .dropdown, .display-block{
+#DISPLAY-BLOCK, .caption-text span, input:checked + .vignette .slide .nav label, input:checked + .navbtn-content .dropdown, .display-block{
 	display: block;
 }
 
@@ -176,11 +176,15 @@ body{
 	font-size: 0.9em;
 }
 
-#FONT-1-5EM, label .navbtn-link, .font-1-5EM{
+#FONT-1-2EM, label .navbtn-link, .logo span, .font-1-2EM{
 	font-size: 1.2em;
 }
 
-#FONT-6EM, .inframe-h1, .font-6em{
+#FONT-3EM, .nav .prev, .nav .next, .font-3em{
+	font-size: 3em;
+}
+
+#FONT-2EM, .inframe-h1, .font-2em{
 	font-size: 6em;
 }
 
@@ -211,10 +215,6 @@ body{
 
 a.intext-link{
 	color:inherit;
-}
-
-.logo span{
-	font-size:1.2em;
 }
 
 .photo{
