@@ -26,10 +26,6 @@ body{
 	border-left: 2px solid gray;
 }
 
-#COLOR-WHITE, .nav label, .logo span, .color-white{
-	color: white;
-}
-
 #MARGIN-0, .vignette-container, .margin-0{
 	margin: 0;
 }
@@ -154,7 +150,7 @@ body{
 	display: block;
 }
 
-#DISPLAY-INLINEBLOCK, .nav label:before, .navbtn-content, .display-inlineblock{
+#DISPLAY-INLINEBLOCK, span.photo-credit, .nav label:before, .navbtn-content, .display-inlineblock{
 	display: inline-block;
 }
 
@@ -196,11 +192,15 @@ body{
 	text-decoration: none;
 }
 
+#COLOR-WHITE, .nav label, .logo span, .color-white{
+	color: white;
+}
+
 #COLOR-BLACK, a.navbtn-link:hover, a.current, .color-black{
 	color:black;
 }
 
-#COLOR-GRAY, .navbtn-link, .color-gray{
+#COLOR-GRAY, span.photo-credit, .navbtn-link, .color-gray{
 	color:#666666;
 }
 
