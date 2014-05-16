@@ -66,7 +66,7 @@ body{
 	padding:0;
 }
 
-#PADDING-3PX, .logo span, .paddinng-3px{
+#PADDING-3PX, .logo span, .down-caret, .paddinng-3px{
 	padding:3px;
 }
 
@@ -168,6 +168,10 @@ body{
 	z-index: 100;
 }
 
+#FONT-07EM, .down-caret, .font-07em{
+	font-size: 0.7em;
+}
+
 #FONT-09EM, .navbtn-content .dropdown, .font-09em{
 	font-size: 0.9em;
 }
@@ -212,9 +216,12 @@ body{
 	cursor: pointer;
 }
 
-
 a.intext-link{
 	color:inherit;
+}
+
+.down-caret{
+	vertical-align: text-top;
 }
 
 .photo{
