@@ -180,13 +180,14 @@ body{
 	font-size: 1.2em;
 }
 
-#FONT-3EM, .nav .prev, .nav .next, .font-3em{
-	font-size: 3em;
-}
-
-#FONT-2EM, .inframe-h1, .font-2em{
+#FONT-6EM, .inframe-h1, .font-6em{
 	font-size: 6em;
 }
+
+#FONT-7EM, .nav .prev, .nav .next, .font-7em{
+	font-size: 7em;
+}
+
 
 #BOLD, .dropdown .current, .bold{
 	font-weight: bold;
