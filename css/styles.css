@@ -172,6 +172,10 @@ body{
 	font-size: 0.7em;
 }
 
+#FONT-085EM, .photonum, .font-085em{
+	font-size: 0.85em;
+}
+
 #FONT-09EM, .navbtn-content .dropdown, .font-09em{
 	font-size: 0.9em;
 }
@@ -227,6 +231,11 @@ a.intext-link{
 
 .photo{
 	transition: opacity 0.7s;
+}
+
+.photonum{
+	text-align: right;
+	padding-bottom: 0.5em;
 }
 
 .navbtn-content{
